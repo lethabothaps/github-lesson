@@ -1,0 +1,52 @@
+.container {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 37, 174) 0%,
+    rgb(241, 147, 55) 53.4%,
+    rgb(250, 237, 56) 99.5%
+  );
+  border: 1px solid palevioletred;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+.form-group {
+  text-align: right;
+}
+.card-body {
+  align-self: auto;
+}
+
+.card-group {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.temperature {
+  font-size: 70px;
+  font-weight: 400;
+}
+.btn-secondary {
+  position: relative;
+  top: 34px right 34px;
+}
+
+.btn-outline-secondary,
+.btn-secondary {
+  background-color: rgb(217, 32, 192);
+}
+.number {
+  font-weight: 600;
+}
+footer {
+  text-align: center;
+  position: relative;
+  bottom: 30;
+  width: 100%;
+  min-height: 100%;
+}
+ul {
+  list-style-type: none;
+}
